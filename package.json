@@ -1,0 +1,19 @@
+{
+  "name": "alternateportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "npm-run-all --parallel browser styles",
+    "browser": "live-server",
+    "styles": "node-sass scss/styles.scss -o css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.0.2"
+  }
+}
