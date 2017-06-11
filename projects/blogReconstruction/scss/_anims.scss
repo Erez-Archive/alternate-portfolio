@@ -1,0 +1,8 @@
+@keyframes change-button-color {
+    0% {
+        color: var(--buttons-text-color);
+    }
+    100% {
+        color: var(--buttons-highlight-color);
+    }
+}

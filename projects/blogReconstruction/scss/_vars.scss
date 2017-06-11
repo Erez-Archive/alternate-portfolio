@@ -1,0 +1,28 @@
+$container-width: 1000px;
+$mobile-breakpoint: 0px; //642
+
+:root {
+  /* Layout */
+  --container-width: $container-width;
+  --inner-container-width: 500px;
+  --screen-width: 100vw;
+  --nav-li-width: em(132px);
+  /* Fonts */
+  --primary-font: Lato;
+  --secondary-font: Lato-Bold;
+  /* Colors */
+  --main-color: #252525;
+  --font-main-color:#9f9f9f;
+  --highlight-color:#58c93a;
+  /*buttons*/
+  --sections-bg: #ffffff;
+  --buttons-fill:#ffffff;
+  --buttons-text-color: #c2c2c2;
+  --buttons-border: 2px solid #c2c2c2;
+  --buttons-highlight-border: 2px solid #58c93a;
+  --buttons-font: --secondary-font;
+  
+
+}
+
+

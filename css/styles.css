@@ -6,6 +6,9 @@
   --miscellaneous-color: #C2927A;
   --main-text-color: #C2927A; }
 
+* {
+  box-sizing: border-box; }
+
 body {
   background-color: var(--theme-color);
   color: var(--main-text-color); }

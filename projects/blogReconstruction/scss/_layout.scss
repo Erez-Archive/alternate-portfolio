@@ -1,0 +1,102 @@
+@mixin for-mobile-only {
+  @media (max-width: $mobile-breakpoint) {
+    @content;
+  }
+}
+/*----------  Containers  ----------*/
+
+.container {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: em(40px) 0;
+  // max-width: 98%;
+  @include for-mobile-only {
+    flex-direction: column;
+    }
+}
+
+
+.container.page {
+  padding-bottom: 0;
+}
+
+.inner-container {
+  width: 500px;
+  max-width: 98%;
+  margin: 0 auto;    
+  padding-right: em(40px);
+}
+
+.page {
+  border: 1px solid #e1e0e0;
+  margin: auto;
+}
+
+.full-height {
+  height: 100%;
+}
+
+// @media (max-width: #{$container-width - 10}) {
+//   .container,
+//   .inner-container {
+//     max-width: 98%;
+//   }
+// }
+
+
+/*----------  Flex Helpers  ----------*/
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.stretch {
+  align-content: stretch;
+   
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-shrink {
+  flex-shrink: 1; 
+}
+
+.flex-flexible {
+  flex: 1, 1, 0;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+/* Micellaneous */
+.inline-block {
+  display: inline-block;
+}
+
+/* Breakpoint mixins */
