@@ -1,0 +1,11 @@
+@keyframes flip-back {
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes flip-front {
+    100% {
+        transform: rotateY(0deg);
+    }
+}

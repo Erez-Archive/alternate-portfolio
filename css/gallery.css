@@ -1,0 +1,7 @@
+.gallery img {
+  border: 4px solid white;
+  background-color: #e2d9d3;
+  margin-bottom: em(16px); }
+
+.gallery .back {
+  position: absolute; }

@@ -1,0 +1,30 @@
+// Changes to Bootstrap Layout
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+// General Layout 
+.preserve-3d {
+    transform-style: preserve-3d;
+}
+
+.perspective-far {
+    perspective: 1000px;
+}
+
+// Flex
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+
+
+

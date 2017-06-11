@@ -1,0 +1,30 @@
+.gallery {
+    img {
+        border: 4px solid var(--miscellaneous-color);
+        background-color: darken(#ECE6E2, 5%);
+        margin-bottom: em(16px);
+    }
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s linear;
+    h4, h5 {
+        text-align: center;        
+        backface-visibility: hidden;
+    }
+    &:hover {
+        transform: rotateY(180deg);
+    }
+}
+
+.front-face {
+    position: absolute;
+    backface-visibility: hidden;
+    z-index: 5;
+}
+
+.back-face {
+    transform: rotateY(180deg);
+}

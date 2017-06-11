@@ -1,0 +1,21 @@
+.top-nav {
+    height: var(--top-nav-height);
+    background-color: var(--nav-main-color);
+    color: var(--nav-text-color);
+    font-size: 1.5em;
+
+
+    ul{
+        display: inline-block;
+        li {
+            display: inline-block;
+            padding: 6px;
+            width: auto;
+        }
+    }
+    .right-nav {
+        a {
+            padding: 1em;
+        }
+    }
+}
