@@ -1,10 +1,11 @@
 :root {
-  --top-nav-height: 100px;
+  --top-nav-height: 6.25em;
   --theme-color: #ECE6E2;
   --nav-main-color: #7E6C62;
   --nav-text-color: #FFFFFF;
   --miscellaneous-color: #C2927A;
-  --main-text-color: #C2927A; }
+  --main-text-color: #C2927A;
+  --footer-standard-margin: 2.5em; }
 
 * {
   box-sizing: border-box; }
@@ -115,11 +116,17 @@ footer {
 .social-connect .social-img {
   height: 2.5em;
   margin-right: 0.3125em;
-  margin-top: 2.5em;
+  margin-top: var(--footer-standard-margin);
   opacity: 0.5;
   transition: opacity 0.5s; }
   .social-connect .social-img:hover {
     opacity: 1; }
 
-.email-me a {
-  text-decoration: none; }
+.contact-area input {
+  display: block;
+  width: 70%;
+  margin-bottom: 1.25em;
+  border-radius: 2%; }
+
+.contact-area message-input {
+  line-height: 200px; }
